@@ -1,0 +1,10 @@
+from BaguetteDecrypter import Decrypter
+
+decrypter = Decrypter()
+
+# decrypter.testHasher("pene123")
+print("2276eaf0cb4b87809ac7987c40b92203e64d0410   =>   " + decrypter.identify("2276eaf0cb4b87809ac7987c40b92203e64d0410"))
+print("92c4753a26c3ad75a3dc0901ce12867f9139985f6da018240622cf6160def408   =>   " + decrypter.identify("92c4753a26c3ad75a3dc0901ce12867f9139985f6da018240622cf6160def408"))
+print("021b1c440a198d34c2f0d2d463340bfec459d706732214ad8f82f2a456e99c3d43835221f2c12f47849e80761b48573eeddb543a9db38e992c0ba3e437dcc1fd   =>   " + decrypter.identify("021b1c440a198d34c2f0d2d463340bfec459d706732214ad8f82f2a456e99c3d43835221f2c12f47849e80761b48573eeddb543a9db38e992c0ba3e437dcc1fd"))
+print("$SHA$0f0faf39e308b627$e6144bfd23f049f06d6eb11b3df3b18f3db7cc4c5215da51487e1f7817d87e04   =>   " + decrypter.identify("$SHA$0f0faf39e308b627$e6144bfd23f049f06d6eb11b3df3b18f3db7cc4c5215da51487e1f7817d87e04"))
+print("$SHA$e6144bfd23f049f06d6eb11b3df3b18f3db7cc4c5215da51487e1f7817d87e04   =>   " + decrypter.identify("$SHA$e6144bfd23f049f06d6eb11b3df3b18f3db7cc4c5215da51487e1f7817d87e04"))

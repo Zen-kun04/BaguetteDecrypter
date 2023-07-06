@@ -8,7 +8,7 @@ BaguetteDecrypter is an easy-to-use Python library to decrypt hashes by brutefor
 - [x] Start the project
 - [x] Create the main files
 - [ ] Add utils
-- [ ] Identify the hash type
+- [x] Identify the hash type
 - [ ] Different bruteforce types
 - [ ] Bruteforce function(s)
 - [ ] Saving utiliy
